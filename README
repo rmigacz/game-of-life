@@ -1,17 +1,19 @@
-================
-= Game of life =
-================
+# Game of life
 
 Problem description:
 - PL - https://pl.wikipedia.org/wiki/Gra_w_%C5%BCycie,
 - ENG - https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life.
 
-1.Compiling and running
+## Compiling and running
+
+```console
 make
 gameoflife MAP_NAME MAP_DIMENSION
+```
 
-2.Project structure, functions description
+## Project structure
 
+<pre>
 game-of-life/
 ├── cells-generator
 │   ├── generator.c
@@ -27,11 +29,4 @@ game-of-life/
 │   ├── octagon_2_8x8
 │   └── pulsar_17x17
 └── README
-
-/cells-generator/generator
-/maps
-/gamefunc.c:
-a) init_map()
-b) free_map()
-c) print_map()
-d) iterate()
+</pre>
